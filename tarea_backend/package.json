@@ -1,0 +1,18 @@
+{
+  "name": "tarea_backend",
+  "version": "1.0.0",
+  "description": "api que interactua con una base de datos mongo, que tiene usuarios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
