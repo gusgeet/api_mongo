@@ -1,5 +1,6 @@
 const usuariosGet = (req, res) => {
     const { limite } = req.query
+    
 
     res.status(200).json({
         msg: 'GET USUARIOS ',
